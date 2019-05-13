@@ -1,0 +1,5 @@
+<!--components/loading/cmp.wxml-->
+<view class="container" hidden="{{hidden}}">
+<view class="cicle cicle1"></view>
+<view class="cicle"></view>
+</view>

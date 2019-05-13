@@ -1,0 +1,67 @@
+/* pages/mark/mark.wxss */
+/* page{
+    width:100%;
+}
+.container{
+    width:100%
+    border:1px solid #000;
+    margin:auto;
+} */
+.user-container{
+    display:flex;
+    flex-direction: column;
+    padding:0 30rpx;
+    background-color:#Fff;
+  
+}
+.user-info{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:100rpx;
+    line-height: 100rpx;
+    padding:0 20rpx;
+}
+.user-avatar{
+    width:100rpx;
+    height:100rpx;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+
+.share{
+    height:50rpx;
+    width:50rpx;
+    margin-top:100rpx;
+    margin-bottom:30rpx;
+    
+}
+.userinfoImg{
+    padding:0;
+    border:0;
+}
+
+
+
+
+
+.user-name {
+    font-size: 40rpx;
+}
+
+
+
+.user-avatar image{
+    width: 100rpx;
+    height: 100rpx;
+}
+
+
+
+.share image {
+    width: 50rpx;
+    height: 50rpx;
+}
+
+

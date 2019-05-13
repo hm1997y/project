@@ -1,0 +1,36 @@
+<view class="container">
+    <view class="head">
+        <image src="/images/12.jpg" class="image"></image>
+        <text class="mainText">toy等32人马克了</text>
+    </view>
+    <view class="components">
+        <d-bigImg img-src="{{articleDetail.imgArray[0]}}" main-text="{{articleDetail.mainTitle}}" wx:if="{{articleDetail.type === 0}}"></d-bigImg>
+        <!-- <d-mainTitle main-title="aaabbbccc"></d-mainTitle> -->
+
+        <d-imgText wx:elif="{{articleDetail.type === 2}}" img-src="{{articleDetail.imgArray[0]}}" sub-text="{{articleDetail.subHead}}" main-text="{{articleDetail.mainTitle}}"></d-imgText>
+        <d-nineImg wx:elif="{{articleDetail.type === 1}}" main-text="{{articleDetails.mainTitle}}" imgSrc="{{articleDetail.imgArray}}"></d-nineImg>
+        <d-video video-id="{{articleDetail.videoId}}" src="{{articleDetail.video.src}}" wx:elif="{{articleDetail.type ===3}}" duration="{{articleDetail.video.duration}}" poster="{{articleDetail.video.poster}}" main-text="{{articleDetail.mainTitle}}"></d-video>
+        <d-purText wx:else main-text="{{articleDetail.mainTitle}}" sub-text="{{articleDetail.subHead}}"></d-purText>
+    </view>
+    <view class="control">
+        <view >
+            <d-tag tag="{{articleDetail.tag}}" tag-id="{{articleDetail.tagId}}"></d-tag>
+        </view>
+        <view class="control-box">
+            <d-more tag="{{articleDetail.tag}}" class="box"></d-more>
+            <d-imgBtn open-type="share" class="box imgBtn">
+                    <image src="/images/mark/relay.png" class="image" slot="image" />
+            </d-imgBtn>
+            <d-like like="{{likeStatus}}" class="box" catch:like="onLike"></d-like>
+
+        </view>
+    </view>
+</view>
+
+
+<!-- <d-imgText img-src="{{articleDetail.imgArray[0]}}" sub-text="{{11111}}" main-text=""></d-imgText> -->
+<!-- 2 tuwen -->
+<!-- 1 9 -->
+<!-- 3 video -->
+<!-- 4 chun -->
+<!-- 0 big -->

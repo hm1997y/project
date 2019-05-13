@@ -1,0 +1,49 @@
+/* components/article/cmp.wxss */
+.container{
+    width:700rpx;
+    background-color:#fff;
+
+}
+.image{
+    vertical-align: middle;
+    width:100rpx;
+    height:100rpx;
+    border-radius: 50%;
+    /* margin-left:20rpx; */
+    margin-bottom:20rpx;
+    /* margin-top:10rpx; */
+}
+.mainText{
+    margin-left:30rpx;
+    font-size:40rpx;
+    font-weight:400;
+}
+.control{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:20rpx;
+    margin-top:10rpx;
+}
+.control-box{
+    display:flex;
+}
+.box{
+    display:block;
+    margin-left:25rpx;
+}
+.imgBtn{
+    width:50rpx;
+    height:50rpx;
+    /* border:1px solid #000; */
+    
+   
+}
+.imgBtn image{
+    width:50rpx;
+    height:50rpx;
+    margin-bottom: 50rpx;
+    /* border:1px solid #000; */
+   
+}

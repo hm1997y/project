@@ -1,0 +1,16 @@
+/* components/bigImage/cmp.wxss */
+.container{
+    text-align: center;
+    /* border:1px solid #000; */
+}
+.img{
+    width:700rpx;
+    
+    /* border:1px solid red; */
+}
+.text{
+    font-size: 40rpx;
+    font-weight: 400;
+    letter-spacing: 1rpx;
+    margin:0 30rpx;
+}

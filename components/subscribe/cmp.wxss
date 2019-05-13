@@ -1,0 +1,14 @@
+/* components/subscribe/cmp.wxss */
+.container{
+    text-align: center;
+    width:120rpx;
+    line-height: 60rpx;
+    background-color:#000;
+    border:1px solid #000;
+    color:#fff;
+
+}
+.container.subscribe{
+    background-color: #fff;
+    color:#000;
+}

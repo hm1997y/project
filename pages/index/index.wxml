@@ -1,0 +1,39 @@
+<!--index.wxml-->
+
+<!-- <d-bigImg img-src="" main-text=""></d-bigImg>
+<d-mainTitle main-title=""></d-mainTitle>
+<d-purText main-text="" sub-text=""></d-purText>
+
+ <d-imgText img-src="" sub-text="" main-text=""></d-imgText> 
+
+
+ <d-nineImg></d-nineImg>
+<d-video videoId="1234" src=""></d-video>
+<d-tag tag="xinli" tag-id="123"></d-tag>
+<d-more tag="心理"></d-more>
+<d-like like="true"></d-like>  -->
+<!-- <d-article article-detail="{{item}}" wx:for="{{articleList}}" wx:key="{{artId}}"></d-article> -->
+<!-- <d-imgText img-src="{{articleDetail.imgArray[0]}}" sub-text="{{11111}}" main-text=""></d-imgText> -->
+
+<!-- <scroll-view class="container" scroll-y="{{true}}" scroll-into-view="green">
+<view class="color red" id="red"></view>
+<view class="color green" id="green"></view>
+<view class="color blue" id="blue"></view>
+
+</scroll-view>  -->
+<view class="container">
+ <d-nav class="nav" catch:nav="onNav" />
+ <d-recommend recommend="{{recommend}}" class="recommend" magazine-id="{{magazineId}}"></d-recommend>
+ <view class="loading-container" wx:if="{{loading}}">
+        <d-loading class="loading" />
+ </view>
+
+ <d-tagList mark-list="{{markList}}" >
+     
+         <d-add slot="before" class="add" wx:if="{{magazineId == 0}}" />
+     
+     <!-- <view slot="before">...</view> -->
+     <view slot="after" class="to-catalog" catch:tap="onCatalog" wx:if="{{magazineId == 0}}">...</view>
+ </d-tagList>
+<d-articleList article-list="{{articleList}}"  more="{{getMore}}" magazineId="{{magazineId}}" />
+</view>

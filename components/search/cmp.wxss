@@ -1,0 +1,22 @@
+/* components/search/cmp.wxss */
+.container{
+    display:flex;
+    /* flex-direction: row; */
+    /* padding:0 30rpx; */
+    justify-content: space-between;
+    align-content: center;
+    width:700rpx;
+    margin:0 auto;
+}
+.search{
+    
+    width:600rpx;
+    height:80rpx;
+    padding-left:20rpx;
+    background-color:#f3f3f3;
+    font-size:28rpx;
+}
+.search-text{
+    font-size:30rpx;
+  line-height: 80rpx;
+}

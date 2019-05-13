@@ -1,0 +1,14 @@
+.container{
+    padding:0 30rpx;
+}
+.mainText{
+    font-size:40rpx;
+    font-weight:300;
+
+}
+.subText{
+    font-size:26rpx;
+    color:#666;
+    letter-spacing: 2rpx;
+    margin-top:30rpx;
+}

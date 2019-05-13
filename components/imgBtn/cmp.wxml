@@ -1,0 +1,5 @@
+<!--components/imgBtn/cmp.wxml-->
+<button class="share" plain="true" class="container" open-type="{{openType}}" bindgetuserinfo="onGetUserInfo">
+    <!-- <image src="/images/mark/relay.png" class="image" /> -->
+    <slot name="image"></slot>
+</button>
